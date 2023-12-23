@@ -7,7 +7,7 @@ repositories {
     url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
     credentials {
       username = "mapbox"
-      password = "sk.eyJ1IjoicGFuc29taWFkbyIsImEiOiJjbG9paWZxeWIxcWFxMmtyd2dmZGRnOHd0In0.u7-vR46qsD-xhklHEOkU3w"
+      password = "key token goes here"
     }
     authentication {
       create<BasicAuthentication>("basic")
